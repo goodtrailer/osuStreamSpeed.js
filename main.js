@@ -178,7 +178,7 @@ $(document).keypress(function(event)
     {
         //if (String.fromCharCode(event.which) == key1 || String.fromCharCode(event.which) == key2)
         //{
-            if ((String.fromCharCode(event.which).toUpperCase() == key1.toUpperCase()) || (String.fromCharCode(event.which).toUpperCase() == key2.toUpperCase())) // Any reason there are two of these? Removed one...
+            if ((String.fromCharCode(event.which).toUpperCase() === key1.toUpperCase()) || (String.fromCharCode(event.which).toUpperCase() === key2.toUpperCase())) // Any reason there are two of these? Removed one...
             {
                 switch (beginTime)
                 {
